@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_jugador"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_jugador" />
+        <item
+            android:id="@+id/nav_agentes"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="agentes" />
+        <item
+            android:id="@+id/nav_mapas"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="mapas" />
+        <item
+            android:id="@+id/armas"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="armas"
+            />
+        <item
+            android:id="@+id/wallpapers2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="wallpapers"
+            />
+        <item
+            android:id="@+id/skinsarmas2"
+            android:title="skins"
+            android:icon="@drawable/ic_menu_camera"
+            />
+    </group>
+</menu>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris_principal"
+    tools:context=".ui.infoagentes.infojett">
+
+    <ScrollView
+        android:layout_width="408dp"
+        android:layout_height="731dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="133dp"
+                android:layout_height="134dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="140dp"
+                android:background="@drawable/iconojett"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="91dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="28dp"
+                android:text="JETT"
+                android:textColor="@color/blanco_valorant"
+                android:textSize="35sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="245dp"
+                android:layout_height="221dp"
+                android:layout_marginTop="116dp"
+                android:text="Sunwoo Han proviene de Corea del Sur, con posibles vínculos con el barrio de Insa-dong en Seúl. Como chef en sus primeros años de vida, estuvo involucrada en un incidente relacionado con sus poderes radiantes similares al viento en el restaurante en el que trabajaba, lo que provocó una &quot;tormenta anormal&quot; que casi destruyó el edificio. Sunwoo huyó de la escena poco después."
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="382dp"
+                android:layout_height="310dp"
+                android:layout_marginTop="4dp"
+                android:text="Más tarde, Sunwoo sería reclutada por el Protocolo VALORANT para convertirse en su décimo agente , &quot;Jett&quot;. Sin embargo, mientras trabajaba para el Protocolo, ocurrió un incidente en Venecia que destruyó parte de la ciudad. Las autoridades revelaron que uno de los perpetradores era identica a jett. ella no podia pronunciarse al respecto ya que era informacion clasificada, no podia comprender lo que pasaba por lo que tuvo que uir una vez mas. Desde entonces se ha entendido que la doble era en realidad una versión reflejada de sí misma de otra Tierra , lo que aclara a Jett de cualquier irregularidad. Sin embargo, incapaz de revelar ninguna información asociada con el Protocolo VALORANT, e incapaz de convencer a nadie de su inocencia en una población que no sabe nada de Tierras alternativas, para el resto del mundo, Jett sigue siendo uno de sus radiantes más peligrosos ."
+                android:textAlignment="textStart"
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.448"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="53dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="32dp"
+                android:text="ROL"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="192dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="24dp"
+                android:text="NACIONALIDAD"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="113dp"
+                android:layout_height="108dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView8"
+                app:srcCompat="@drawable/claseduelista" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="189dp"
+                android:layout_height="106dp"
+                android:layout_marginTop="4dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.551"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/coreadelsur" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="196dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="50dp"
+                android:text="HABILIDADES"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="203dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="108dp"
+                android:text="rafaga ascendente"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="128dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView10"
+                app:srcCompat="@drawable/rafagajett" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="249dp"
+                android:layout_height="140dp"
+                android:layout_marginTop="44dp"
+                android:text="Propulsa instantáneamente a Jett a mucha altura hacia arriba."
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.473"
+                app:layout_constraintStart_toEndOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView12"
+                app:srcCompat="@drawable/impuslojett" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="44dp"
+                android:text="impulso"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="252dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="80dp"
+                android:text="Propulsa a Jett instantáneamente en la dirección en la que se esté moviendo. Si Jett está quieta, se propulsará hacia delante."
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageView6"
+                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="126dp"
+                android:layout_height="129dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14"
+                app:srcCompat="@drawable/humojett" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="137dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="120dp"
+                android:text="nube explosiva"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="238dp"
+                android:layout_height="161dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="92dp"
+                android:layout_marginEnd="20dp"
+                android:text=" Lanza un proyectil instantáneamente que se expande en una nube que bloquea brevemente la visión al impactar contra una superficie. Mantén pulsado el botón de la habilidad para que el humo se curve en la dirección de la mira. Duración: 4.5 segundos."
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/imageView7"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="28dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16"
+                app:srcCompat="@drawable/cuchillosjett" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="52dp"
+                android:text="tormenta de cuchillas"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="246dp"
+                android:layout_height="141dp"
+                android:layout_marginStart="133dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="89dp"
+                android:text="Equipa un conjunto de cuchillos volantes de alta precisión que se recargan cuando acaban con un oponente. Dispara para lanzar un único cuchillo a tu objetivo. Alterna el modo de disparo para lanzar todas las dagas restantes a tu objetivo. Cantidad de cuchillas: 5."
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.625"
+                app:layout_constraintStart_toEndOf="@+id/imageView8"
+                app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="36dp"
+                android:text="PASIVA"
+                android:textColor="@color/rojo_valorant"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="332dp"
+                android:layout_height="117dp"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="31dp"
+                android:text="cuando jett salta y se encuentra en el aire, se debe mantener presionado espacio para asi planear hasta que esta toque el suelo."
+                android:textColor="@color/blanco_valorant"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

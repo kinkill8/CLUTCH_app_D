@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment"
+    android:background="@color/gris_principal">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="724dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/iconophoenix"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/iconophoenix"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconobreach"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconobreach"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/iconoastra"
+                app:layout_constraintTop_toBottomOf="@+id/iconojett"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoastra"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/astraicono"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconophoenix"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconojett"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconojett"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconokayo"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconokayo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconocypher"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconofade"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconofade"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconochamber"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconobrimstone"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconobrimstone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoastra" />
+
+            <ImageView
+                android:id="@+id/iconochamber"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconochamber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconobreach"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconocypher"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconocypher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconobrimstone"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconokilljoy"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconokilljoy"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconofade"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/icononeon"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/icononeon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconokayo"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoomen"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconoomen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconokilljoy"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoraze"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconoraze"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/icononeon"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoreyna"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconoreyna"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoomen"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconosage"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconosage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoraze"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoskye"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconoskye"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoreyna"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconosova"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconosova"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconosage"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoviper"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginTop="150dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/iconoviper"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoskye"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:id="@+id/iconoyoru"
+                android:layout_width="350px"
+                android:layout_height="350px"
+                android:layout_marginStart="44dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/iconoyoru"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconosova"
+                tools:ignore="ContentDescription" />
+
+            <Button
+                android:id="@+id/botonphoenix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/phoenix"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconophoenix" />
+
+            <Button
+                android:id="@+id/botonjett"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/jett"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconojett" />
+
+            <Button
+                android:id="@+id/botonastra"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="72dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/astra"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoastra" />
+
+            <Button
+                android:id="@+id/botonbreach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/breach"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconobreach" />
+
+            <Button
+                android:id="@+id/botonbrimstone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="52dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/brimstone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconobrimstone" />
+
+            <Button
+                android:id="@+id/botonchamber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="60dp"
+                android:text="@string/chamber"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconochamber" />
+
+            <Button
+                android:id="@+id/botoncypher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/cypher"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconocypher" />
+
+            <Button
+                android:id="@+id/botonfade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/fade"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconofade" />
+
+            <Button
+                android:id="@+id/botonkayo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/kay_o"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconokayo" />
+
+            <Button
+                android:id="@+id/botonkilljoy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconokilljoy" />
+
+            <Button
+                android:id="@+id/botonneon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/neon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/icononeon" />
+
+            <Button
+                android:id="@+id/botonomen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/omen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoomen" />
+
+            <Button
+                android:id="@+id/botonraze"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/raze"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoraze" />
+
+            <Button
+                android:id="@+id/botonreyna"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/reyna"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoreyna" />
+
+            <Button
+                android:id="@+id/botonsage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/sage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconosage" />
+
+            <Button
+                android:id="@+id/botonskye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/skye"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoskye" />
+
+            <Button
+                android:id="@+id/botonsova"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="63dp"
+                android:layout_marginTop="24dp"
+                android:text="@string/sova"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconosova" />
+
+            <Button
+                android:id="@+id/botonviper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="63dp"
+                android:text="@string/viper"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoviper" />
+
+            <Button
+                android:id="@+id/botonyoru"
+                android:layout_width="134dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/yoru"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.136"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iconoyoru" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

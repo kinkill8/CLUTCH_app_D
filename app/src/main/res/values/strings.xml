@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">CLUTCH</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_jugador">Jugador</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="bienvenido_radiante">bienvenido radiante!</string>
+    <string name="navega_libremente">navega libremente</string>
+    <string name="phoenix">phoenix</string>
+    <string name="jett">jett</string>
+    <string name="astra">astra</string>
+    <string name="breach">breach</string>
+    <string name="brimstone">brimstone</string>
+    <string name="chamber">chamber</string>
+    <string name="cypher">cypher</string>
+    <string name="fade">fade</string>
+    <string name="kay_o">KAY/O</string>
+    <string name="button">Button</string>
+    <string name="neon">neon</string>
+    <string name="omen">omen</string>
+    <string name="raze">raze</string>
+    <string name="reyna">reyna</string>
+    <string name="sage">sage</string>
+    <string name="skye">skye</string>
+    <string name="sova">sova</string>
+    <string name="viper">viper</string>
+    <string name="yoru">yoru</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

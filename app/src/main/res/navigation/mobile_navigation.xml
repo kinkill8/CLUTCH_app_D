@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_jugador">
+
+    <fragment
+        android:id="@+id/nav_jugador"
+        android:name="com.example.clutch.ui.home.HomeFragment"
+        android:label="@string/menu_jugador"
+        tools:layout="@layout/fragment_jugador" />
+
+    <fragment
+        android:id="@+id/nav_agentes"
+        android:name="com.example.clutch.ui.gallery.GalleryFragment"
+        android:label="agentes"
+        tools:layout="@layout/fragment_agentes" />
+
+    <fragment
+        android:id="@+id/nav_mapas"
+        android:name="com.example.clutch.ui.slideshow.SlideshowFragment"
+        android:label="mapas"
+        tools:layout="@layout/fragment_mapas" />
+
+    <fragment
+        android:id="@+id/armas"
+        android:name="com.example.clutch.ui.armas.armas"
+        android:label="armas"
+        tools:layout="@layout/fragment_armas" />
+
+    <fragment
+        android:id="@+id/skinsarmas2"
+        android:name="com.example.clutch.skinsarmas"
+        android:label="skins de armas"
+        tools:layout="@layout/fragment_skinsarmas" />
+    <fragment
+        android:id="@+id/wallpapers2"
+        android:name="com.example.clutch.ui.wallpapers.fragmentwallpaper"
+        android:label="wallpapers"
+        tools:layout="@layout/fragment_fragmentwallpaper" />
+</navigation>

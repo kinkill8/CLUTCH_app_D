@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".comentarios" >
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:text="escriba un comentario"
+        android:textColor="@color/blanco_valorant"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ingrese un nombre" />
+
+    <EditText
+        android:id="@+id/txtnombre"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ingrese un titulo de comentario" />
+
+    <EditText
+        android:id="@+id/txttitulo"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="titulo del comentario"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contenido del comentario" />
+
+    <EditText
+        android:id="@+id/txtcomentario"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:ems="10"
+        android:hint="Comentario"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+</LinearLayout>
